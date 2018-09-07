@@ -8,7 +8,11 @@ public class Uppgift1 {
 		
 		System.out.println("Vad heter du?");
 		
-		int Namn = input.nextInt();
+		String Namn = input.next();
+		
+		System.out.println("Hur gammal är du?");
+		
+		String Alder = input.next();
 		
 		input.close();
 		
