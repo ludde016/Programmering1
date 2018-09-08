@@ -18,6 +18,8 @@ public class Uppgift1 {
 		
 		String Adress = input.next();
 		
+		String Adresstal = input.next();
+		
 		System.out.println("Vad är ditt postnummer?");
 		
 		String Postnummer = input.next();
@@ -36,7 +38,7 @@ public class Uppgift1 {
 		
 		System.out.println("Ålder:    " + Alder);
 		
-		System.out.println("Adress:   " + Adress +"\r"+ "          " + Postnummer + " " + Stad);
+		System.out.println("Adress:   " + Adress + " " + Adresstal +"\r"+ "          " + Postnummer + " " + Stad);
 		
 		System.out.println("Nummer:   " + Nummer );
 		
