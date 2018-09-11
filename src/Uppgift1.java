@@ -10,6 +10,8 @@ public class Uppgift1 {
 		
 		String Namn = input.next();
 		
+		String Efternamn = input.next();
+		
 		System.out.println("Hur gammal är du?");
 		
 		String Alder = input.next();
@@ -34,7 +36,7 @@ public class Uppgift1 {
 		
 		input.close();
 		
-		System.out.println("Namn:     " + Namn);
+		System.out.println("Namn:     " + Namn + " " + Efternamn);
 		
 		System.out.println("Ålder:    " + Alder);
 		
