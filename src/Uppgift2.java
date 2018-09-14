@@ -8,10 +8,8 @@ public class Uppgift2 {
 		
 		System.out.println("Skriv in 10 heltal: ");
 		
-		double largest = 0; 
-		
 		double tal1 = input.nextDouble(); 
-		if (tal1 > 0) {largest = tal1;}
+		double largest = tal1; 
 		double smallest = tal1;
 		
 		double tal2 = input.nextDouble(); 
@@ -50,8 +48,14 @@ public class Uppgift2 {
 		if (tal0 > largest) {largest = tal0;}
 		if (tal0 < smallest) {smallest = tal0;}
 		
-		System.out.println(largest);
-		System.out.println(smallest);
+		input.close();
+		
+		double total = (tal1 + tal2 + tal3 + tal4 + tal5 + tal6 + tal7 + tal8 + tal9 + tal0); 
+	    double medel = (total/10); 
+		
+		System.out.println("Högst: " + largest);
+		System.out.println("Lägst: " + smallest);
+		System.out.println("Medelvärde: " + medel );
 	
 	}
 
