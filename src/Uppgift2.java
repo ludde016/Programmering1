@@ -13,7 +13,7 @@ public class Uppgift2 {
 		double smallest = tal1;
 		
 		double tal2 = input.nextDouble(); 
-		if (tal2 > largest) {largest = tal1;}
+		if (tal2 > largest) {largest = tal2;}
 		if (tal2 < smallest) {smallest = tal2;}
 		
 		double tal3 = input.nextDouble(); 
