@@ -36,11 +36,10 @@ public class LooparUppgift1 {
 			System.out.println(i*siffra);
 			
 		}
-		for (int i = 0; i < siffra; i++) {
+		for (int i = 0; i < siffra; i++) { 
 			
-			System.out.println(i);
 			
 		}
-		
+
 	}
 }
