@@ -30,6 +30,6 @@ public class helloworld {
 
 	}// END main
 
-} // END helloworld
+} // END helloworld (quadrant selection)
 
 // Dubbel slash är kommentarer, text som ignoreras av programmet. Ctrl + shift + F fixar allt.
