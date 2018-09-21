@@ -8,7 +8,11 @@ public class R2Uppgift {
 		
 		int tal1 = input.nextInt();
 		int tal2 = input.nextInt();
+		int R2 = (tal2*2 - tal1);
 		
+		System.out.println(R2);
+		
+		input.close();
 		
 	}
 }
