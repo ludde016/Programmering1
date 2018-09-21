@@ -14,5 +14,7 @@ public class R2Uppgift {
 		
 		input.close();
 		
+		
+		//Har även lämnat in uppgifter på Kattis , se my profil: https://open.kattis.com/users/ludvig-swala
 	}
 }
