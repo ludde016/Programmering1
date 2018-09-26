@@ -20,6 +20,8 @@ public class FizzBuzz {
 				
 				else {System.out.print(i + "\r");}
 				
+		input.close(); 
+				
 			
 		}
 	}
