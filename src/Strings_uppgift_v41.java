@@ -57,10 +57,11 @@ public class Strings_uppgift_v41 {
 		String nytt = "";
 		
 		for (int i = 0; i < word.length(); i++) {
-			if (word.charAt(i).equals("b" || "c" || "d" || "f" || "g" || "h" || "j" || "k" || "l" || "m" || "n" || "p"
-					|| "q" || "r" || "s" || "t" || "v" || "w" || "x" || "z")) {
-				nytt += word.charAt(i) + "o" + word.charAt(i); 
+			if (word.charAt(i) == 'b')  {
+				nytt += word.charAt(i) + "o" + word.charAt(i); }
+			else {
+				nytt += word.charAt(i); }
 			}
+		return nytt; 
 		}
-	}
 }
