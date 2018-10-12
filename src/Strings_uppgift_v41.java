@@ -57,7 +57,7 @@ public class Strings_uppgift_v41 {
 		String nytt = "";
 
 		for (int i = 0; i < word.length(); i++) {
-			switch (word.charAt(i)) {
+			switch (word.toLowerCase().charAt(i)) {
 			case 'b':
 			case 'c':
 			case 'd':
@@ -82,7 +82,7 @@ public class Strings_uppgift_v41 {
 				nytt += word.charAt(i) + "o" + word.charAt(i);
 			}
 
-			switch (word.charAt(i)) {
+			switch (word.toLowerCase().charAt(i)) {
 			case 'a':
 			case 'e':
 			case 'i':
