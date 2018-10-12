@@ -9,11 +9,11 @@ public class Strings_uppgift_v41 {
 		// double intag = input.nextDouble();
 		// String in = input.nextLine();
 		// String ord = input.next();
-		// char c = input.next().charAt(0); 
+		// char c = input.next().charAt(0);
 		String word = input.nextLine();
 
 		// System.out.println(volume(intag));
-		//System.out.println(reverse(in));
+		// System.out.println(reverse(in));
 		// System.out.println(count(ord, c));
 		System.out.println(sjorovare(word));
 	}
@@ -24,36 +24,43 @@ public class Strings_uppgift_v41 {
 		intag = 4 * intag * 3.14 / 3;
 		return intag;
 	}
-	
+
 	public static String reverse(String in) {
-		
+
 		String str = "";
-		
+
 		for (int i = in.length() - 1; i >= 0; i--) {
-			str += in.charAt(i); 
-			
-			}
-		
+			str += in.charAt(i);
+
+		}
+
 		return str;
 	}
-	
+
 	public static int count(String ord, char c) {
-		
+
 		int antal = 0;
-		
-		for (int i = 0; i < ord.length() ; i++) {
+
+		for (int i = 0; i < ord.length(); i++) {
 			System.out.println("INDEX " + i + ": " + ord.charAt(i));
-			
-			if (ord.charAt(i) == (c)) { 
-				antal = antal + 1; 
+
+			if (ord.charAt(i) == (c)) {
+				antal = antal + 1;
 			}
 		}
-		
-		
+
 		return antal;
 	}
-	
+
 	public static String sjorovare(String word) {
+
+		String nytt = "";
 		
+		for (int i = 0; i < word.length(); i++) {
+			if (word.charAt(i).equals("b" || "c" || "d" || "f" || "g" || "h" || "j" || "k" || "l" || "m" || "n" || "p"
+					|| "q" || "r" || "s" || "t" || "v" || "w" || "x" || "z")) {
+				nytt += word.charAt(i) + "o" + word.charAt(i); 
+			}
+		}
 	}
 }
