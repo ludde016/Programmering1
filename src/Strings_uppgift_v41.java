@@ -6,10 +6,10 @@ public class Strings_uppgift_v41 {
 
 		Scanner input = new Scanner(System.in);
 
-		double intag = input.nextDouble();
+		// double intag = input.nextDouble();
 		String in = input.nextLine();
 
-		System.out.println(volume(intag));
+		// System.out.println(volume(intag));
 		System.out.println(reverse(in));
 	}
 
@@ -22,8 +22,13 @@ public class Strings_uppgift_v41 {
 	
 	public static String reverse(String in) {
 		
+		String str = "";
 		
+		for (int i = in.length() - 1; i >= 0; i--) {
+			System.out.println(i);
+			
+			}
 		
-		return in;
+		return str;
 	}
 }
