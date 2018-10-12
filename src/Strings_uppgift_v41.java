@@ -7,10 +7,13 @@ public class Strings_uppgift_v41 {
 		Scanner input = new Scanner(System.in);
 
 		// double intag = input.nextDouble();
-		String in = input.nextLine();
+		//String in = input.nextLine();
+		String ord = input.nextLine();
+		char c = input.next().charAt(0); 
 
 		// System.out.println(volume(intag));
-		System.out.println(reverse(in));
+		//System.out.println(reverse(in));
+		System.out.println(count(ord, c));
 	}
 
 	public static double volume(double intag) {
@@ -25,10 +28,26 @@ public class Strings_uppgift_v41 {
 		String str = "";
 		
 		for (int i = in.length() - 1; i >= 0; i--) {
-			System.out.println(i);
+			str += in.charAt(i); 
 			
 			}
 		
 		return str;
+	}
+	
+	public static int count(String ord, char c) {
+		
+		int antal = 0;
+		
+		for (int i = 0; i < ord.length() ; i++) {
+			System.out.println("INDEX " + i + ": " + ord.charAt(i));
+			
+			if (ord.charAt(i) == (c)) { 
+				
+			}
+		}
+		
+		
+		return antal;
 	}
 }
