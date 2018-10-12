@@ -8,7 +8,7 @@ public class Strings_uppgift_v41 {
 
 		// double intag = input.nextDouble();
 		//String in = input.nextLine();
-		String ord = input.nextLine();
+		String ord = input.next();
 		char c = input.next().charAt(0); 
 
 		// System.out.println(volume(intag));
@@ -43,7 +43,7 @@ public class Strings_uppgift_v41 {
 			System.out.println("INDEX " + i + ": " + ord.charAt(i));
 			
 			if (ord.charAt(i) == (c)) { 
-				
+				antal = antal + 1; 
 			}
 		}
 		
