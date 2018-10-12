@@ -10,10 +10,12 @@ public class Strings_uppgift_v41 {
 		// String in = input.nextLine();
 		// String ord = input.next();
 		// char c = input.next().charAt(0); 
+		String word = input.nextLine();
 
 		// System.out.println(volume(intag));
 		//System.out.println(reverse(in));
 		// System.out.println(count(ord, c));
+		System.out.println(sjorovare(word));
 	}
 
 	public static double volume(double intag) {
@@ -49,5 +51,9 @@ public class Strings_uppgift_v41 {
 		
 		
 		return antal;
+	}
+	
+	public static String sjorovare(String word) {
+		
 	}
 }
