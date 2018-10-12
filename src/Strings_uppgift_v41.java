@@ -55,13 +55,48 @@ public class Strings_uppgift_v41 {
 	public static String sjorovare(String word) {
 
 		String nytt = "";
-		
+
 		for (int i = 0; i < word.length(); i++) {
-			if (word.charAt(i) == 'b')  {
-				nytt += word.charAt(i) + "o" + word.charAt(i); }
-			else {
-				nytt += word.charAt(i); }
+			switch (word.charAt(i)) {
+			case 'b':
+			case 'c':
+			case 'd':
+			case 'f':
+			case 'g':
+			case 'h':
+			case 'j':
+			case 'k':
+			case 'l':
+			case 'm':
+			case 'n':
+			case 'p':
+			case 'q':
+			case 'r':
+			case 's':
+			case 't':
+			case 'v':
+			case 'w':
+			case 'x':
+			case 'z':
+
+				nytt += word.charAt(i) + "o" + word.charAt(i);
 			}
-		return nytt; 
+
+			switch (word.charAt(i)) {
+			case 'a':
+			case 'e':
+			case 'i':
+			case 'o':
+			case 'u':
+			case 'y':
+			case 'å':
+			case 'ä':
+			case 'ö':
+			case ' ':
+				nytt += word.charAt(i);
+				
+			}
 		}
+		return nytt;
+	}
 }
