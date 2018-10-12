@@ -7,13 +7,13 @@ public class Strings_uppgift_v41 {
 		Scanner input = new Scanner(System.in);
 
 		// double intag = input.nextDouble();
-		//String in = input.nextLine();
-		String ord = input.next();
-		char c = input.next().charAt(0); 
+		// String in = input.nextLine();
+		// String ord = input.next();
+		// char c = input.next().charAt(0); 
 
 		// System.out.println(volume(intag));
 		//System.out.println(reverse(in));
-		System.out.println(count(ord, c));
+		// System.out.println(count(ord, c));
 	}
 
 	public static double volume(double intag) {
