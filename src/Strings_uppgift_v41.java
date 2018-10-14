@@ -42,7 +42,6 @@ public class Strings_uppgift_v41 {
 		int antal = 0;
 
 		for (int i = 0; i < ord.length(); i++) {
-			System.out.println("INDEX " + i + ": " + ord.charAt(i));
 
 			if (ord.charAt(i) == (c)) {
 				antal = antal + 1;
