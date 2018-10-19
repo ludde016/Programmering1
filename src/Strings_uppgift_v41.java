@@ -91,6 +91,11 @@ public class Strings_uppgift_v41 {
 			case 'ä':
 			case 'ö':
 			case ' ':
+			case '.':
+			case '-':
+			case ',': 
+			case '?':
+			case '!': 
 				nytt += word.charAt(i);
 				
 			}
