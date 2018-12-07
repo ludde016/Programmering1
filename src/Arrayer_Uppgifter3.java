@@ -5,6 +5,7 @@ public class Arrayer_Uppgifter3 {
 	public static void main(String[] args) {
 		
 		int[] shack = new int[6]; 
+		int[] rätt = {1, 1, 2, 2, 2, 8};
 		Scanner intag = new Scanner(System.in); 
 		
 		for (int i = 0; i < shack.length; i++) {
@@ -13,9 +14,12 @@ public class Arrayer_Uppgifter3 {
 		}
 		
 		for (int i = 0; i < shack.length; i++) {
-			System.out.println(shack[i]);
+			shack[i] = rätt[i] - shack[i]; 
 		}
 		
+		for (int i = 0; i < shack.length; i++) {
+			System.out.print(shack[i] + " ");
+		}
 	
 	}
 
