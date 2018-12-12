@@ -5,11 +5,21 @@ public class Arrayer_Uppgifter4 {
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);
-		int antal = input.nextInt();
+		boolean check = true;
+		int antal;
 		int total = 0;
 		int temp;
-		int[] mil = new int[antal * 2];
+		int[] mil;
 		
+		while(check == true) {
+			total = 0; 
+			antal = input.nextInt();
+			if (antal < 1) {
+				check = false;
+			}
+			if (check == true) {
+			
+			mil = new int[antal * 2];
 		for (int j = 0; j < mil.length; j++) {
 			mil[j] = input.nextInt(); 
 		}
@@ -23,6 +33,11 @@ public class Arrayer_Uppgifter4 {
 			total += mil[i] * temp;
 		}
 		System.out.println(total + " miles");
+		}
+			else {
+				break;  
+			}
+		}
 
 	}
 }
