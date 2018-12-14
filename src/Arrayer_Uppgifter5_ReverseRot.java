@@ -10,12 +10,13 @@ public class Arrayer_Uppgifter5_ReverseRot {
 		while (igen > 0) {
 			
 		    igen = input.nextInt();
-			String intag = input.next();
-			String reverse = "";
-
-			if (igen < 1) {
+		    if (igen < 1) {
 				break;
 			}
+		    String intag = input.next();
+			String reverse = "";
+
+			
 
 			if (igen >= 28) {
 				igen = igen % 28;
@@ -30,8 +31,7 @@ public class Arrayer_Uppgifter5_ReverseRot {
 				String newWord = "";
 				for (int j = 0; j < reverse.length(); j++) {
 
-					switch (reverse.charAt((j))) {
-					case 'A':
+					switch (reverse.charAt((j))) {case 'A':
 						newWord += "B";
 						break;
 					case 'B':
