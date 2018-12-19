@@ -25,9 +25,23 @@ public class Arrayer_uppgift7TrainPass {
 				real = false;
 			}
 			
-			remain += input.nextInt();
+			remain = input.nextInt();
 			
+			if (remain > 0 && passengers < cap) {
+				real = false;
+			}
 
+		}
+		
+		if (passengers > 0) {
+			real = false;
+		}
+		
+		if (real == true) {
+			System.out.println("possible");
+		}
+		else {
+			System.out.println("impossible");
 		}
 
 	}
