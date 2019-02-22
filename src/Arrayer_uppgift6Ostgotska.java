@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class Arrayer_uppgift6Ostgotska {
 	
+	// Östgötska - Ludvig Swala
+	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		String intag = input.nextLine();

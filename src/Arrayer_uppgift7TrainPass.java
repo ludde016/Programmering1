@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class Arrayer_uppgift7TrainPass {
+	
+	// Train passengers - Ludvig Swala
 
 	public static void main(String[] args) {
 
@@ -24,23 +26,22 @@ public class Arrayer_uppgift7TrainPass {
 			if (passengers > cap) {
 				real = false;
 			}
-			
+
 			remain = input.nextInt();
-			
+
 			if (remain > 0 && passengers < cap) {
 				real = false;
 			}
 
 		}
-		
+
 		if (passengers > 0) {
 			real = false;
 		}
-		
+
 		if (real == true) {
 			System.out.println("possible");
-		}
-		else {
+		} else {
 			System.out.println("impossible");
 		}
 

@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class Arrayer_Uppgift2 {
+	
+	// What does the fox say? - Ludvig Swala
 
 	public static void main(String[] args) {
 

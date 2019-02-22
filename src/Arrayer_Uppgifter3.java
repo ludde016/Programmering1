@@ -2,6 +2,8 @@
 
 public class Arrayer_Uppgifter3 {
 	
+	// Bijele - Ludvig Swala
+	
 	public static void main(String[] args) {
 		
 		int[] shack = new int[6]; 

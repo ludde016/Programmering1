@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class Arrayer_Uppgift {
+	
+	// I've been everywhere man - Ludvig Swala
 
 	public static void main(String[] args) {
 

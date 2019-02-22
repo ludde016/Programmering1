@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class Arrayer_Uppgifter5_ReverseRot {
+	
+	// Reverse-rot - Ludvig Swala
 
 	public static void main(String[] args) {
 
