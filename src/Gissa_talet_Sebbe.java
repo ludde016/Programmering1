@@ -15,7 +15,7 @@ public class Gissa_talet_Sebbe {
 
 			int num = randomnum();
 
-			while (haswon != true || lives != 0) {
+			while (haswon != true || lives != 0) { // Förut var det // men det gör ju så att koden inte fungerar på så sätt som tänkt. DOCK så skrev jag aldrig exakt att det skulle vara && i den här while-loopen
 
 				int guess = input.nextInt();
 
@@ -69,11 +69,11 @@ public class Gissa_talet_Sebbe {
 		String cont = input.next();
 
 		if (cont.equals("Y")) {
-
+			 
 			replay = true;
 			lives = 10;
 		} else if (cont.equals("N")) {
-
+			
 			replay = false;
 		}
 
